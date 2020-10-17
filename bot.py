@@ -1,4 +1,6 @@
 import datetime
+import ROCK_PAPER_SCISSORS
+import covid_checker
 
 def greeting():
     print("Hello there, this is bot. I'm here to help you with your health. May I know your name?")
@@ -32,11 +34,12 @@ def bot():
     choice = check()
     while choice != 3:
         if choice == 1:
-            #place your game
+            ROCK_PAPER_SCISSORS.main()
         elif choice == 2:
-            #covid verification
+            covid_checker.check_me()
         else:
             print("Sorry! I didn't get that")
         choice = check()
     if choice == 3:
         print("Good bye "+name+" Take care :-)" )
+bot()

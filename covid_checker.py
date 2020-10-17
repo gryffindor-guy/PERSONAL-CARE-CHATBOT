@@ -1,3 +1,4 @@
+import pyfiglet #Install this module using command --> pip install pyfiglet
 def symptoms():
     print("Are you experiencing any of the following Symptoms")
     print("1 : Cough")
@@ -107,15 +108,18 @@ def covid_checkup(value):
             print("we recommand you to get tested for covid-19 near your local hospital!,Please put on a mask!Thank you!")
             status = False
         elif (value < 15):
+            result = pyfiglet.figlet_format("HEALTH REPORT")
+            print(result)
             print("Your infection risk is low :) :) :)")
             print("May be its just climate change ,we recommend you to stay at home for a couple of days to avoid any chance of exposure to the Novel Coronavirus and get this sample test done again.")
             print("Thank you! For your patience there isn't anything you should be worried about now, get this test done again when you dont feel well")
             status = False
     except:
         print("Invalid details are provided :(")
-          
-value = covid_checkup_score()
-covid_checkup(value)
+
+def check_me():
+    value = covid_checkup_score()
+    covid_checkup(value)
 
 
 
