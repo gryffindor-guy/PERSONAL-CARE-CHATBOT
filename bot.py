@@ -1,5 +1,6 @@
 import datetime
-import ROCK_PAPER_SCISSORS
+import pyfiglet
+from ROCK_PAPER_SCISSORS import rock_paper_scissors
 import covid_checker
 from TIC_TAC_TOE import tic_tac_toe_gui
 
@@ -35,7 +36,24 @@ def bot():
     choice = check()
     while choice != 3:
         if choice == 1:
-            tic_tac_toe_gui.ttt()
+            print(pyfiglet.figlet_format("GAMES"))
+            print("Avialable Games")
+            print("1. Tic Tac Toe")
+            print("2. Rock Paper Scissors")
+            print("3. Why don't we have some Excitement!!!*Let me Guess your Age*")
+            try:
+                game = int(input("Choose A Game"))
+            except:
+                print("Invalid Input")
+                continue
+            if game == 1:
+                tic_tac_toe_gui.ttt()
+            elif game == 2:
+                rock_paper_scissors.rps()
+            elif game == 3:
+                pass
+            else:
+                print("Invalid Input :( ")
         elif choice == 2:
             covid_checker.check_me()
         else:
