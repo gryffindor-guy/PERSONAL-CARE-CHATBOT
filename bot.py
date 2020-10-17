@@ -1,6 +1,7 @@
 import datetime
 import ROCK_PAPER_SCISSORS
 import covid_checker
+from TIC_TAC_TOE import tic_tac_toe_gui
 
 def greeting():
     print("Hello there, this is bot. I'm here to help you with your health. May I know your name?")
@@ -34,7 +35,7 @@ def bot():
     choice = check()
     while choice != 3:
         if choice == 1:
-            ROCK_PAPER_SCISSORS.main()
+            tic_tac_toe_gui.ttt()
         elif choice == 2:
             covid_checker.check_me()
         else:

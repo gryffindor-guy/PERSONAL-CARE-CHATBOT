@@ -3,8 +3,9 @@ import sys
 import tkinter as tk
 import tkinter.ttk as ttk
 from tkinter import messagebox
+from TIC_TAC_TOE import algorithm_for_tic_tac_toe
 
-from tic_tac_toe.algorithm_for_tic_tac_toe import get_symbol, find_best_move, update_state, is_draw
+
 
 sys.setrecursionlimit(10000)
 
@@ -59,18 +60,18 @@ class Grid(tk.Frame):
         return tk.Button(self, bd=5, width=2, font=('arial', 50, 'bold'))
 
     def fill(self, i, j):
-        self.b[i][j].config(text=get_symbol(self.turn), state=tk.DISABLED, bg="black", fg="white")
-        self.algo_value[i * 3 + j] = get_symbol(self.turn)
+        self.b[i][j].config(text=algorithm_for_tic_tac_toe.get_symbol(self.turn), state=tk.DISABLED, bg="black", fg="white")
+        self.algo_value[i * 3 + j] = algorithm_for_tic_tac_toe.get_symbol(self.turn)
         status  = self.check_if_game_ended("Player")
         if status: return
-        self.turn = update_state(self.algo_value, i, j, self.turn)
+        self.turn = algorithm_for_tic_tac_toe.update_state(self.algo_value, i, j, self.turn)
         self.ai_move()
 
     def ai_move(self, start=None):
         if start:
             move, s = start, 0
         else:
-            move, s = find_best_move(self.algo_value, True, self.turn)
+            move, s = algorithm_for_tic_tac_toe.find_best_move(self.algo_value, True, self.turn)
         self.score.config(text="current minimax score {}".format(s))
         index = 0
         for i in range(9):
@@ -78,12 +79,12 @@ class Grid(tk.Frame):
                 index = i
                 break
         self.algo_value = move
-        self.b[index // 3][index % 3].config(text=get_symbol(self.turn), state=tk.DISABLED, fg="white", bg="red")
+        self.b[index // 3][index % 3].config(text=algorithm_for_tic_tac_toe.get_symbol(self.turn), state=tk.DISABLED, fg="white", bg="red")
         self.turn = not self.turn
         self.check_if_game_ended("Computer")
 
     def check_if_game_ended(self, player):
-        if is_draw(self.algo_value):
+        if algorithm_for_tic_tac_toe.is_draw(self.algo_value):
             messagebox.showinfo("Info", "Game is drawn !!")
             return True
         is_own, v = self.has_won()
@@ -129,3 +130,6 @@ class Grid(tk.Frame):
         if curr[2] == curr[4] == curr[6] != -1:
             return True, (2, 4, 6)
         return False, None
+
+def ttt():
+    build_gui(dim=(500,500))
