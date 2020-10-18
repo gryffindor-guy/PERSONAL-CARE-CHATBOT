@@ -1,4 +1,5 @@
 import pyfiglet #Install this module using command --> pip install pyfiglet
+import webbrowser
 def symptoms():
     print("Are you experiencing any of the following Symptoms")
     print("1 : Cough")
@@ -105,7 +106,22 @@ def covid_checkup(value):
         if (value >= 15):
             print("!!!!!!!!!")
             print("If the information provided by you is accurate, It indicates that you are either unwell or at Risk.")
-            print("we recommand you to get tested for covid-19 near your local hospital!,Please put on a mask!Thank you!")
+            print("we recommand you to get tested for covid-19 near your local hospital!,Please put on a mask!")
+            print("CHOOSE YOUR INTEREST OF CONSULTATION")
+            print("1 : I want an Hospital appointment")
+            print("2 : I want an video appointment with a doctor")
+            print("3 : I will take care of it")
+            try:
+                response = int(input())
+                if response == 1:
+                    print("Redirecting you........")
+                    webbrowser.open("https://www.askapollo.com/online-doctors-consultation/", new=1)
+                elif response == 2:
+                    print("Redirecting you........")
+                    webbrowser.open("https://www.practo.com/", new=1)
+            except:
+                print("Invalid input, please choose carefully.")
+            
             status = False
         elif (value < 15):
             result = pyfiglet.figlet_format("HEALTH REPORT")
@@ -113,6 +129,7 @@ def covid_checkup(value):
             print("Your infection risk is low :) :) :)")
             print("May be its just climate change ,we recommend you to stay at home for a couple of days to avoid any chance of exposure to the Novel Coronavirus and get this sample test done again.")
             print("Thank you! For your patience there isn't anything you should be worried about now, get this test done again when you dont feel well")
+            print("----------------------------------------------------------------------------------------------------")
             status = False
     except:
         print("Invalid details are provided :(")

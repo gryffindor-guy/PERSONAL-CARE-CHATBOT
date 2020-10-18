@@ -1,11 +1,16 @@
 import datetime
-import pyfiglet
+import random
+import webbrowser
 from ROCK_PAPER_SCISSORS import rock_paper_scissors
 import covid_checker
 from TIC_TAC_TOE import tic_tac_toe_gui
 
 def greeting():
-    print("Hello there, this is bot. I'm here to help you with your health. May I know your name?")
+    responses = [
+        "Welcome, I am a personal chatbot. I can take care of you :). Your name please : ",
+        "Hey hello! I am your personal bot who helps you to do your things. May I know your name? : "
+    ]
+    print(random.choice(responses))
 
 def wish(name):
     time_now = datetime.datetime.now().hour
@@ -19,13 +24,15 @@ def wish(name):
         print("Oh! I think it's time for bed " + name + ".")
 
 def check():
-    print("I will help you to assess your health")
+    print("I can make you more comfortable :)")
     print("How are feeling now?")
     print("1. I'm feeling good and let's have some fun!!")
-    print("2. I'm feeling a little ill. Can you help me?")
-    print("3. End my session")
+    print("2. I'm Not Feeling well :( Can you help me?")
+    print("3. I want to watch movies and webseries")
+    print("4. I want to buy some things")
+    print("5. End my session")
     try:
-        return int(input("How are you feeling: "))
+        return int(input("How are you feeling now: "))
     except Exception:
         print("Enter a valid choice")
 
@@ -34,15 +41,15 @@ def bot():
     name = input()
     wish(name)
     choice = check()
-    while choice != 3:
+    while choice != 5:
         if choice == 1:
-            print(pyfiglet.figlet_format("GAMES"))
+            print("Why don't we play some exciting games :)")
             print("Avialable Games")
             print("1. Tic Tac Toe")
             print("2. Rock Paper Scissors")
             print("3. Why don't we have some Excitement!!!*Let me Guess your Age*")
             try:
-                game = int(input("Choose A Game"))
+                game = int(input("Choose A Game : "))
             except:
                 print("Invalid Input")
                 continue
@@ -56,6 +63,12 @@ def bot():
                 print("Invalid Input :( ")
         elif choice == 2:
             covid_checker.check_me()
+        elif choice == 3:
+            print("Redirecting you.......")
+            webbrowser.open("https://www.netflix.com/in/", new = 1)
+        elif choice == 4:
+            print("Redirecting you.......")
+            webbrowser.open("https://www.amazon.in/", new = 1)
         else:
             print("Sorry! I didn't get that")
         choice = check()
