@@ -62,7 +62,35 @@ def bot():
             else:
                 print("Invalid Input :( ")
         elif choice == 2:
-            covid_checker.check_me()
+            print("1 : I am Physically Not well, Can you help me")
+            print("2 : I am Mentally Disturbed, Can you help me")
+            try:
+                game = int(input("Choose your choice: "))
+            except:
+                print("Invalid Input")
+                continue
+            if game == 1:
+                print("Oh!, I am worried about you")
+                print("Trending Health Assessment tests....")
+                print("1 : Covid-19 Health Assessment Test")
+                print("2 : Health Condition Checker using Symptoms")
+                try:
+                    choose = int(input("Choose your Choice : "))
+                except:
+                    print("Invalid Input")
+                    continue
+                if choose == 1:
+                    covid_checker.check_me()
+                elif choose == 2:
+                    print("Redirecting you.......")
+                    webbrowser.open("https://www.mayoclinic.org/symptom-checker/select-symptom/itt-20009075", new = 1)
+                else:
+                    print("Sorry! I didn't get that")
+            elif game == 2:
+                print("Redirecting you.......")
+                webbrowser.open("https://www.happify.com/", new = 1)
+            else:
+                print("Sorry! I didn't get that")
         elif choice == 3:
             print("Redirecting you.......")
             webbrowser.open("https://www.netflix.com/in/", new = 1)
