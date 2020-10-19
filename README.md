@@ -19,7 +19,7 @@
 
 # Highlights of this chatbot :dart:
 
-:arrow_right:  **This Chatbot can take care of your health. Not only Physical Health, but also your mental health.**
+:arrow_right:  **This Chatbot can take care of your health. Not only Physical Health, but also your mental health. Capable of conductiong Health Tests.**
 
 :arrow_right:  **This Chatbot can offer you several games to make you enjoy your free time. You can also have some exciting fun with this bot.**
 
