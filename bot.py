@@ -18,6 +18,7 @@ def guess_age():
         rem7 = int(input("Enter remainder of dividing your age by 7 : "))
     except:
         print("Please enter a valid input")
+        print("----------------------------------------------------------------------------------------------------")
         return None
     return (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105
 def wish(name):
