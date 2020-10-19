@@ -11,7 +11,7 @@
 
 **19pa1a05b3**
 
-# Highlights of this chatbot
+# Highlights of this chatbot :dart:
 
 :arrow_right:  **My Main objective is to provide a personalized experience to the user.**
 
@@ -25,7 +25,16 @@
 
 # Description of Tasks it can perform
 
+### Health Care :hospital:
 :arrow_right:  This Chatbot is designed to take care of the user, It is capable of performing Trending Health Assesment Tests. It can also Redirects you to the best online doctor appointment websites. And this bot can also arrange an video appointment with best Doctors through your Default Browser
+
+### Psychological Care :
+:arrow_right: This Chatbot can offer you to take to best meditation websites and to the best music platform to make you psychologically more comfortable.
+
+### You Can Have a lot of Fun with Me :
+### Games :video_game:
+:diamond_shape_with_a_dot_inside: This Bot can offer you several exciting ways to make you enjoy your free time, One is Gaming, you can play the below games without installing any games :simple_smile:
+
 
 
 
