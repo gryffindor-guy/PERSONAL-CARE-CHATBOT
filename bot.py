@@ -11,7 +11,15 @@ def greeting():
         "Hey hello! I am your personal bot who helps you to do your things. May I know your name? : "
     ]
     print(random.choice(responses))
-
+def guess_age():
+    try:
+        rem3 = int(input("Enter remainder of dividing your age by 3 : "))
+        rem5 = int(input("Enter remainder of dividing your age by 5 : "))
+        rem7 = int(input("Enter remainder of dividing your age by 7 : "))
+    except:
+        print("Please enter a valid input")
+        return None
+    return (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105
 def wish(name):
     time_now = datetime.datetime.now().hour
     if time_now < 12:
@@ -58,7 +66,8 @@ def bot():
             elif game == 2:
                 rock_paper_scissors.rps()
             elif game == 3:
-                pass
+                age = guess_age()
+                print("I did it ! Your Age is ",age)
             else:
                 print("Invalid Input :( ")
         elif choice == 2:
