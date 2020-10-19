@@ -59,13 +59,20 @@
 
 :arrow_right: random, pyfiglet, webbrowser, tkinter, datetime.
 
+### Inputs
+
+:arrow_right: Follow the instructions of the bot, it will ask for the choice that you want in the form of integers. It is very  easy to interact with the bot. You will definitely like its services.
+
+
 ### Block Diagram 
 
 ![](https://github.com/gryffindor-guy/PERSONAL-CARE-CHATBOT/blob/main/BlockDiagram.jpeg)
 
 ### Note :
  
- :arrow_right: You have to clone total repository and execute bot.py file to interact with chatbot. Paths should not be disturbed or deviated. :construction:
+ :arrow_right: You have to clone total repository and execute bot.py file to interact with chatbot. Paths should not be disturbed or deviated, use same Foldering Structure to avoid module errors :construction:
+ 
+ 
 
 # Presentation
 ### Youtube chatbot Execution Video :arrow_down:
