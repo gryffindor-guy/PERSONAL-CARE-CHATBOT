@@ -5,7 +5,7 @@
 # Release History
 - 0.0.1
 
-# Contributors
+# Owner / Contributor
 
 **Hema Sankara Sai Ganesh Babu Muddam**
 
