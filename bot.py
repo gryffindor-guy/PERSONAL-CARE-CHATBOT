@@ -87,8 +87,20 @@ def bot():
                 else:
                     print("Sorry! I didn't get that")
             elif game == 2:
-                print("Redirecting you.......")
-                webbrowser.open("https://www.happify.com/", new = 1)
+                print("Please Make your choice")
+                print("1 : I want to take a Meditation class and stress relief exercises")
+                print("2 : I want to listen Music, It makes me more confortable")
+                try:
+                    claim = int(input("Choose your Choice : "))
+                except:
+                    print("Invalid Input")
+                    continue
+                if claim == 1:
+                    print("Redirecting you.......")
+                    webbrowser.open("https://www.happify.com/", new = 1)
+                elif claim == 2:
+                    print("Redirecting you.......")
+                    webbrowser.open("https://www.spotify.com/in/", new =  1)
             else:
                 print("Sorry! I didn't get that")
         elif choice == 3:
