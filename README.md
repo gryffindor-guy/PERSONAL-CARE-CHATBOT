@@ -7,21 +7,21 @@
 
 # Contributors
 
-**Hema Sankara Sai Ganesh Babu**
+**Hema Sankara Sai Ganesh Babu Muddam**
 
 **19pa1a05b3**
 
 # Highlights of this chatbot
 
-:arrow_right:  My Main objective is to provide a personalized experience to the user.
+:arrow_right:  **My Main objective is to provide a personalized experience to the user.**
 
-:arrow_right:  This Chatbot can take care of your health. Not only Physical Health, but also your mental health.
+:arrow_right:  **This Chatbot can take care of your health. Not only Physical Health, but also your mental health.**
 
-:arrow_right:  This Chatbot can offer you several games to make you enjoy your free time. You can also have some exciting fun with this bot.
+:arrow_right:  **This Chatbot can offer you several games to make you enjoy your free time. You can also have some exciting fun with this bot.**
 
-:arrow_right:  This Chatbot can take you to the best place to watch Amazing Movies or Web-series or Documentaries.
+:arrow_right:  **This Chatbot can take you to the best place to watch Amazing Movies or Web-series or Documentaries.**
 
-:arrow_right:  This Chatbot can take you to the best place to shop whatever you like.
+:arrow_right:  **This Chatbot can take you to the best place to shop whatever you like.**
 
 # Description of Tasks it can perform
 
