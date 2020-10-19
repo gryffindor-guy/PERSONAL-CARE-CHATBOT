@@ -55,12 +55,20 @@
 
 :arrow_right: **Shopping** : This bot can take you to the  best leading shopping platform so that you can shop whatever you like, you can easily get redirected through your default browser.
 
+### Modules / Packages used :
+
+:arrow_right: random, pyfiglet, webbrowser, tkinter, datetime.
+
 ### Block Diagram 
 
-![]()
+![](https://github.com/gryffindor-guy/PERSONAL-CARE-CHATBOT/blob/main/BlockDiagram.jpeg)
 
+### Note :
+ 
+ :arrow_right: You have to clone total repository and execute bot.py file to interact with chatbot. Paths should not be disturbed or deviated. :construction:
 
 # Presentation
+### Youtube chatbot Execution Video :arrow_down:
 
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/tdTst3M0U_E)
 
