@@ -54,5 +54,5 @@
 
 # Presentation
 
-[![Watch the video](https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fvideos%2Fusing-intelligent-personal-assistant-on-digital-tablet-video-id858596760%3Fs%3D640x640&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fvideos%2Fchatbot&tbnid=WRRhiGlcbu0-LM&vet=12ahUKEwjf0rHr2sDsAhUwm0sFHWDcAnsQMyhEegQIARBP..i&docid=CNIOuy6YhTSsxM&w=640&h=360&q=chatbot%20video%20images&safe=strict&ved=2ahUKEwjf0rHr2sDsAhUwm0sFHWDcAnsQMyhEegQIARBP)](https://youtu.be/tdTst3M0U_E)
+[![Watch the video](https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fvideos%2Fusing-intelligent-personal-assistant-on-digital-tablet-video-id858596760%3Fs%3D640x640&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fvideos%2Fchatbot&tbnid=WRRhiGlcbu0-LM&vet=12ahUKEwjf0rHr2sDsAhUwm0sFHWDcAnsQMyhEegQIARBP..i&docid=CNIOuy6YhTSsxM&w=640&h=360&q=chatbot%20video%20images&safe=strict&ved=2ahUKEwjf0rHr2sDsAhUwm0sFHWDcAnsQMyhEegQIARBPg)](https://youtu.be/tdTst3M0U_E)
 
