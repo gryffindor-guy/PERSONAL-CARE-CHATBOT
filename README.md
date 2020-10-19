@@ -43,7 +43,13 @@
 
 :thought_balloon: Guees My Age : Can't you believe then just try it, bot can guess you age for sure, but it asks you some questions you have to answer them to have fun.
 
+### Entertainment :clapper:
 
+:arrow_right: **Movies** : This bot can take you to the best leading platforms to make you entertain, You can watch Movies, Webseries, Documentaries and much more stuff. It will redirects you through your default browser.
+
+### Shopping :handbag:
+
+:arrow_right: **Shopping** : This bot can take you to the  best leading shopping platform so that you can shop whatever you like, you can easily get redirected through your default browser.
 
 
 # Presentation
