@@ -11,9 +11,13 @@
 
 **19pa1a05b3**
 
-# Highlights of this chatbot :dart:
+# Objective of this Project
 
 :arrow_right:  **My Main objective is to provide a personalized experience to the user.**
+
+:arrow_right:  **To help users in solving their physical as well as mental disturbances**
+
+# Highlights of this chatbot :dart:
 
 :arrow_right:  **This Chatbot can take care of your health. Not only Physical Health, but also your mental health.**
 
@@ -50,6 +54,10 @@
 ### Shopping :handbag:
 
 :arrow_right: **Shopping** : This bot can take you to the  best leading shopping platform so that you can shop whatever you like, you can easily get redirected through your default browser.
+
+### Block Diagram 
+
+![]()
 
 
 # Presentation
