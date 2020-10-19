@@ -77,5 +77,5 @@
 # Presentation
 ### Youtube chatbot Execution Video :arrow_down:
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/tdTst3M0U_E)
+[![Watch the video](https://github.com/gryffindor-guy/PERSONAL-CARE-CHATBOT/blob/main/Chatbot.jpg)](https://youtu.be/tdTst3M0U_E)
 
