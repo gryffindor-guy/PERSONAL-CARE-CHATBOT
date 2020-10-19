@@ -57,7 +57,7 @@
 
 ### Modules / Packages used :
 
-:arrow_right: random, pyfiglet, webbrowser, tkinter, datetime.
+:arrow_right: random, pyfiglet, webbrowser, tkinter, datetime, sys.
 
 ### Inputs
 
