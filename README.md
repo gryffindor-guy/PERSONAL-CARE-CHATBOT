@@ -32,8 +32,16 @@
 :arrow_right: This Chatbot can offer you to take to best meditation websites and to the best music platform to make you psychologically more comfortable.
 
 ### You Can Have a lot of Fun with Me :
+
 ### Games :video_game:
-:diamond_shape_with_a_dot_inside: This Bot can offer you several exciting ways to make you enjoy your free time, One is Gaming, you can play the below games without installing any games :simple_smile:
+
+:diamond_shape_with_a_dot_inside: This Bot can offer you several exciting ways to make you enjoy your free time, One is Gaming, you can play the below games without installing any games.
+
+:video_game: Tic Tac Toe : It is implemented by using graphical user inteface package tkinter for better experience to the user. You can have a lot of fun.
+
+:video_game: Rock Paper Scissors : You can also play rock paper scisssors, I have used random module for better experience to the user about bot plays in rock paper scissors
+
+:thought_balloon: Guees My Age : Can't you believe then just try it, bot can guess you age for sure, but it asks you some questions you have to answer them to have fun.
 
 
 
